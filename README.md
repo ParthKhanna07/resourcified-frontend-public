@@ -1,18 +1,34 @@
-## How to setup project
-``` 
-1. git clone https://github.com/ParthKhanna07/teacher-pal.git
+## Resourcified
+An Application used to share and find resources posted by college students among different branches and courses. Built with React, Python, HTML and CSS.
 
-2. npm install
 
-3. npm start
+## Project Status
+Completed. Users can signup/login through homepage and choose their likeable branches and courses then find and share resources. Users can change their Profile details in profile section (Coloured icon in Navbar) and can also see their Posted, liked posts and Also their subscribed courses. 
 
-4. npx react-gitignore   (for creating gitignore)
-```
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Screen Shot(s)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
+
+## Installation and Setup Instructions
+
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+`npm install`  
+
+To Run Test Suite:  
+
+`npm test`  
+
+To Start Server:
+
+`npm start`  
+
+To Visit App:
+
+`localhost:3000/ideas`  
+PS:- Change the port 3000 with your frontend PORT.
 
