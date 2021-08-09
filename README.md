@@ -1,5 +1,5 @@
-## Resourcified
-https://resourcified.herokuapp.com
+## Resourcified  ### https://resourcified.herokuapp.com
+
 An Application used to share and find resources posted by college students among different branches and courses. Built with React, Python, HTML and CSS.
 
 
