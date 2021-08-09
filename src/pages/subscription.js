@@ -104,7 +104,7 @@ export class Subscription extends Component {
     this.handleClose()
     window.setTimeout(function () {
       window.location.reload()
-    }, 200)
+    }, 400)
   }
   render () {
     return (

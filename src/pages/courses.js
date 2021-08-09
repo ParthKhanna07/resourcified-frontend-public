@@ -27,7 +27,8 @@ export class Courses extends Component {
   courseHandler = (e, id, name) => {
     // console.log(id)
     // console.log(name)
-    localStorage.setItem('course', id)
+    localStorage.setItem('course', id);
+    localStorage.setItem('course_name',name);
     const url = '/posts/' + localStorage.getItem('course')
     this.props.history.push(url)
   }
@@ -68,9 +69,9 @@ export class Courses extends Component {
         console.log(error)
       })
 
-    // window.setTimeout(function () {
-    //   window.location.reload()
-    // }, 1000)
+    window.setTimeout(function () {
+      window.location.reload()
+    }, 200)
 
     // window.location.reload()
   }
@@ -159,6 +160,12 @@ export class Courses extends Component {
     //console.log(this.props);
     return (
       <div className='container'>
+        <br></br>
+        <div style={{float:"left"}}>
+          <span style={{fontSize:"20px",color:"gray"}}> > {localStorage.getItem('branch')}</span>
+        </div>
+        <br></br>
+        <br></br>
         {localStorage.getItem('role') == 'admin' ? (
           <button
             className='btn btn-primary '

@@ -20,6 +20,8 @@ import Subscription from './pages/subscription';
 import Random from './pages/random';
 import Home from './pages/home';
 
+
+
 class App extends Component {
 
     render() {
@@ -48,6 +50,7 @@ class App extends Component {
                         
 
                     </Switch>
+                
                 </Router>
             </div>
         );

@@ -268,7 +268,9 @@ text-align: center;
 
 
 .radius{
-  border-radius: 100%;
+  border-radius: 70%;
+  background-color: #161a39;
+  
   
 }
 

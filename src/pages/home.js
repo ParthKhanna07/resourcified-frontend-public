@@ -45,18 +45,20 @@ export class Home extends Component {
             <div><h1>Welcome to <img style={{width: "25%", height: "25%"}}  src={recourcified}></img></h1></div>
             <div><h3>Find and share valuable resources.</h3></div>
             <div className='col-lg-6 col-md-12 col-sm-12 margin '  >
-              <button onClick={this.handleRegister} className=" radius  btn-outline-primary " >
-                <div className='register-card text-center btn-colour' >
+              <div >
+              <button onClick={this.handleRegister} className=" radius btn btn-outline-primary w3-animate-left" style={{width: "50%",height:"200px"}} >
+               
                   <h2>Register</h2>
-                </div>
+             
               </button>
+              </div>
             </div>
 
             <div className='col-lg-6 col-md-12 col-sm-12 margin'>
-              <button onClick={this.handleLogin} className=' radius btn-outline-success' >
-                <div className='register-card register-card text-center btn-colour-2'>
+              <button onClick={this.handleLogin} className=' radius btn btn-outline-success w3-animate-right' style={{width: "50%",height:"200px"}}>
+               
                   <h2>Login</h2>
-                </div>
+               
               </button>
             </div>
           </div>

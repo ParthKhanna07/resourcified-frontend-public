@@ -60,7 +60,8 @@ export class userProfile extends Component {
         this.setState({ gender: result.data.gender })
         this.setState({ branch: result.data.branch.name })
         this.setState({ institute: result.data.institute.name })
-        localStorage.setItem('full_name', this.state.full_name)
+        localStorage.setItem('full_name', this.state.full_name);
+       
         // console.log(result.data)
         // console.log(result.data.branch.name)
       })

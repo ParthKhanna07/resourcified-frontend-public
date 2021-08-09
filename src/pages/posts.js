@@ -127,6 +127,12 @@ export class Posts extends Component {
     return (
       <div>
         <div className='container'>
+        <br></br>
+        <div style={{float:"left"}}>
+          <span style={{fontSize:"20px",color:"gray"}}> > {localStorage.getItem('branch')}  > {localStorage.getItem('course_name')}</span>
+        </div>
+        <br></br>
+        <br></br>
           <button className='btn btn-primary ' onClick={this.handleCreatepost}>
             Create Post
           </button>

@@ -15,6 +15,7 @@ export class AllBatches extends Component {
     // console.log(id);
     // console.log(name);
     localStorage.setItem('branchSelected', id)
+    localStorage.setItem('branch',name)
     const url = '/courses/' + localStorage.getItem('branchSelected')
     this.props.history.push(url)
   }
@@ -47,6 +48,7 @@ export class AllBatches extends Component {
     //console.log(this.props);
     return (
       <div className='container'>
+
         <div className=' row'>
           {this.state.branches.map(val => {
             return (
