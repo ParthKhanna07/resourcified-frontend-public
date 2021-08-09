@@ -1,9 +1,11 @@
 ## Resourcified
+https://resourcified.herokuapp.com
 An Application used to share and find resources posted by college students among different branches and courses. Built with React, Python, HTML and CSS.
 
 
 ## Project Status
-Completed. Users can signup/login through homepage and choose their likeable branches and courses then find and share resources. Users can change their Profile details in profile section (Coloured icon in Navbar) and can also see their Posted, liked posts and Also their subscribed courses. 
+https://resourcified.herokuapp.com
+Running. Users can signup/login through homepage and choose their likeable branches and courses then find and share resources. Users can change their Profile details in profile section (Coloured icon in Navbar) and can also see their Posted, liked posts and Also their subscribed courses. 
 
 
 ## Project Screen Shot(s)
